@@ -9,7 +9,7 @@ license = "MIT"
 readme = "README.md"
 
 [[bin]]
-name = "run-in-roblox"
+name = "run-in-roblox-long-timeout"
 path = "src/main.rs"
 
 [dependencies]
