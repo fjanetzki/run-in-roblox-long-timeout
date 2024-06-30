@@ -63,7 +63,7 @@ impl PlaceRunner {
         );
 
         let first_message = message_receiver
-            .recv_timeout(Duration::from_secs(180))
+            .recv_timeout(Duration::from_secs(600))
             .ok_or_else(|| {
                 anyhow!("Timeout reached while waiting for Roblox Studio to come online")
             })?;

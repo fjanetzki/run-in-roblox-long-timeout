@@ -1,3 +1,4 @@
 /target
 **/*.rs.bk
 /demo/Place.rbxlx
+*.lock
